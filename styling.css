@@ -1,0 +1,98 @@
+/*tags*/
+table{
+    border: 1px solid black;
+    }
+
+td{
+    border: 1px solid black;
+    }
+/*ids*/
+form{
+	background: purple;
+	color: white;
+}
+#header{
+	font-family:"verdana";
+	color: blue;
+}
+
+/*classes*/
+.footer{
+	background: steelblue;
+	color: white;
+	white-space: nowrap;
+	direction: rtl;
+}
+/*tag with any options(id,classes)*/
+p[id]{
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	color: white;
+	border: 10px inset grey;
+	border-radius:20px ;
+	padding: 13px 10px 13px 10px;
+	margin: 5px auto;
+	width: 50%;
+	box-shadow: 0 0 5px rgba(0,0,0,1);
+	position: relative;
+	animation-name: para;
+	animation-duration:4s;
+	animation-delay:1s;
+	animation-iteration-count: infinite;
+	
+	
+}
+@keyframes para {
+	0%		{left:0px; top:0px;}
+	25%		{left:300px; top:0px;}
+	50%		{left:300px; top:300px;}
+	75%		{left:0px; top:300px;}
+	100%	{left:0px; top:0px;}
+}
+/*options:*/
+ul{
+	width: 150px;
+	height: 130px;
+	overflow: scroll;
+	list-style-type: lower-roman;
+}
+#one{
+	font-style: italic;
+	text-decoration: underline;
+}
+#one:hover{
+	background: black;
+	color: white;
+}
+
+#two{
+	font-variant: small-caps;
+	visibility: hidden;
+}
+
+#three{
+	font-weight: bold;
+}
+
+#three:before{
+	content:"[";
+}
+
+#three:after{
+	content:"]";
+}
+
+#large{
+	font-size: x-large;
+	text-align: center;
+}
+
+#last{
+	font-size: 19px;
+	line-height: 17px
+}
+
+li:nth-child(2n){
+	background-color: grey;
+}
+/*can use gradient generator online */

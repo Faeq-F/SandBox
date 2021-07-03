@@ -1,0 +1,5 @@
+print ('Hello world!')
+print ('')
+print ('Today is a wonderful day!")
+print ('')
+print ('Lets start a quiz')
